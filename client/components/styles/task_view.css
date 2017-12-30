@@ -1,0 +1,33 @@
+.container {
+    margin: 0;
+	padding: 0;
+    border: 0;
+    height: auto;
+}
+
+.container > p {
+    text-align: right;
+    margin: 5px 0;
+}
+
+.container .task_view {
+    width: 100%;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 500px) { 
+    .container .task_view{
+        width: 100%;
+        max-height: 61vh;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .container .task_view{
+        width: 100%;
+        max-height: 52vh;
+        overflow-y: scroll;
+    }
+}

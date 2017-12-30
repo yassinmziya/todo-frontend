@@ -1,0 +1,21 @@
+.card {
+    border-bottom: 1px solid #d8d8d8;
+    height: auto;
+}
+
+.card table {
+    width: 100%;
+}
+
+.card tr {
+    height: 26pt;
+}
+
+.card p {
+    color: #b1b1b1;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #ff0000;
+}
